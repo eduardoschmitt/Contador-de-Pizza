@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Contador de Pizza</title>
+</head>
+<body>
+    <header>
+        <h1>Contador de Pizza &#x1F355</h1>
+        <p>Desafie seus amigos e veja quem come mais</p>
+    </header>
+    <main>
+        <article id="add">
+            <section class="padrao" id="padrao-0">
+                <button id="0" onclick="subtrai(this)">-</button>
+                <input type="text" id="nome"/>
+                <div id="div0">0</div>
+                <button id="0" onclick="soma(this)">+</button>
+            </section>
+        </article>
+        <div>
+            <button onclick="adicionar()">Adicionar</button>
+            <button onclick="remover()">Remover</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy 2022 Eduardo Schmitt</p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background: rgb(119, 15, 15);
+    background: radial-gradient(circle, rgba(224,18,18,1) 0%, rgba(79,5,5,1) 100%);
+}
+
+main{
+    padding: 24px;
+}
+
+main article section button{
+    margin: 10px;
+    padding: 10px;
+}
+
+main article section p{
+    margin: 10px;
+}
+
+article{
+    display: grid;
+    place-items: center;
+}
+
+.padrao{
+    display: flex;
+    align-items: center;
+}
+
+.padrao button{
+    font-size: 20px;
+    border-radius: 400px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: none;
+}
